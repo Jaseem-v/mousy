@@ -357,3 +357,16 @@ $(document).ready(function () {
 
 
 AOS.init({ once: true });
+
+const tl = gsap.timeline({ defaults: { duration: 0.75, ease: "power1.out" } })
+
+tl.fromTo('.header__circle', { scale: 0 }, { scale: 1, ease: "elastic.out(1, 0.4)", duration: 1.5 })
+tl.fromTo('.header__circle-div img', { scale: 0 }, { scale: 1, ease: "elastic.out(1, 0.4)", duration: 1.5 }, '<50%')
+tl.fromTo('.text-only', { x: -30, opacity: 0 }, { x: 0, opacity: 1 }, '<50%')
+tl.fromTo('.text-milk', { x: 30, opacity: 0 }, { x: 0, opacity: 1 }, '<')
+tl.fromTo('.text-avil', { scale: 0 }, { scale: 1, ease: "elastic.out(1, 0.4)", duration: 1.5 }, '<50%')
+// tl.fromTo('.header__title', { x: -30, opacity: 0 }, { x: 0, opacity: 1 }, '<50%')
+tl.fromTo('.header__features', { x: 30, opacity: 0 }, { x: 0, opacity: 1 }, '<50%')
+tl.fromTo('.header__btn', { x: -30, opacity: 0 }, { x: 0, opacity: 1 }, '<')
+tl.fromTo('.header__sub-title', { x: -30, opacity: 0 }, { x: 0, opacity: 1 }, '<')
+tl.fromTo('.header__title--mobile', { x: -30, opacity: 0 }, { x: 0, opacity: 1 }, '<')
