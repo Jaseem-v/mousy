@@ -193,8 +193,11 @@ html {
     margin-top: 1rem;
   }
 
-  @media only screen and (max-width: $bp-992) {
-    &--nav {
+  &--nav {
+    background: $color-secondary;
+    color: #fff;
+
+    @media only screen and (max-width: $bp-992) {
       // display: none;
       order: 3;
       margin-left: auto;

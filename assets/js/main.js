@@ -8,12 +8,20 @@ var swiper = new Swiper(".menu-Swiper", {
     center: true,
     centeredSlides: true,
     breakpoints: {
+        400: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        540: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
         640: {
-            slidesPerView: 1,
+            slidesPerView: 3,
             spaceBetween: 20,
         },
         768: {
-            slidesPerView: 2,
+            slidesPerView: 5,
             spaceBetween: 40,
         },
         990: {
