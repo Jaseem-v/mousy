@@ -755,7 +755,7 @@ main {
     }
 
     &-3 {
-      bottom: 0;
+      bottom: -30%;
       right: -8rem;
       transform: translateY(50%);
       width: 40rem;
@@ -775,7 +775,7 @@ main {
 
     &-4 {
       top: -6rem;
-      right: 0rem;
+      right: 5rem;
       transform: translateX(-50%);
       width: 17rem;
       z-index: 1;
@@ -783,8 +783,7 @@ main {
 
       @media only screen and (max-width: $bp-992) {
         // font-size: 48.75%;
-        transform: translateX(-8%);
-
+        right: -2rem;
       }
 
       @media only screen and (max-width: 700px) {
@@ -1367,7 +1366,7 @@ main {
 
   &__img-2 {
     z-index: 0;
-    transform: translateY(27%);
+    bottom: -10rem;
 
   }
 }
