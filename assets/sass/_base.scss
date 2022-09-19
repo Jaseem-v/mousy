@@ -153,7 +153,8 @@ html {
   }
 
   &:hover {
-    color: #000;
+    color: #fff;
+    background: $color-secondary;
 
     & span {
       width: 225%;
@@ -162,23 +163,14 @@ html {
     }
   }
 
-  &--white {
-    background: #fff;
-    color: #016fb7;
-    margin-top: 1rem;
-    box-shadow: none;
-  }
+
 
   &--contact {
     margin: 3.5rem 0 0;
     background: #CFA55B;
   }
 
-  &--enroll {
-    width: 100%;
-    display: block;
-    margin-top: 3rem;
-  }
+
 
   &--header {
     padding: 1rem 2.4rem;
@@ -188,15 +180,17 @@ html {
     border: none;
   }
 
-  &--about {
-    padding: 1.2rem 2.6rem;
-    margin-top: 1rem;
-  }
+
 
   &--nav {
     background: $color-secondary;
     color: #fff;
     font-size: 1.5rem;
+
+    &:hover {
+      color: #fff;
+      background: $color-primary;
+    }
 
     @media only screen and (max-width: $bp-992) {
       // display: none;
