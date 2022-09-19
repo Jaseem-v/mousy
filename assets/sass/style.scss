@@ -468,7 +468,7 @@ main {
   height: auto;
 
   @media only screen and (max-width: $bp-xsmall) {
-    bottom: 0rem;
+    bottom: -3px;
   }
 
   &-div {
