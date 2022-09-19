@@ -361,7 +361,7 @@ AOS.init({ once: true });
 const tl = gsap.timeline({ defaults: { duration: 0.75, ease: "power1.out" } })
 
 tl.fromTo('.header__circle', { scale: 0 }, { scale: 1, ease: "elastic.out(1, 0.4)", duration: 1.5 })
-tl.fromTo('.header__circle-div img', { scale: 0, zIndex: 0 }, { scale: 1, zIndex: 3, duration: 0.5 }, '<50%')
+tl.fromTo('.header__circle-div img', { scale: 0, zIndex: 0 }, { scale: 1, zIndex: 2, duration: 0.5 }, '<50%')
 tl.fromTo('.text-only', { x: -30, opacity: 0 }, { x: 0, opacity: 1 }, '<50%')
 tl.fromTo('.text-milk', { x: 30, opacity: 0 }, { x: 0, opacity: 1 }, '<')
 tl.fromTo('.text-avil', { scale: 0 }, { scale: 1, ease: "elastic.out(1, 0.4)", duration: 1.5 }, '<50%')
