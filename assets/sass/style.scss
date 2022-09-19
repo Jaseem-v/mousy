@@ -738,9 +738,9 @@ main {
     &-3 {
       bottom: 0;
       right: -8rem;
-      transform: translateY(27%);
+      transform: translateY(50%);
       width: 40rem;
-      z-index: 0;
+      z-index: 1;
 
       @media only screen and (max-width: 700px) {
         width: 31rem;
@@ -1346,8 +1346,9 @@ main {
 
   }
 
-  &-2 {
+  &__img-2 {
     z-index: 0;
-    bottom: 9rem;
+    transform: translateY(27%);
+
   }
 }

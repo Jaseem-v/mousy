@@ -313,3 +313,7 @@ $(document).ready(function () {
 //         projectInfo.style.bottom = "-6rem"
 //     })
 // })
+
+
+
+AOS.init({ once: true });
