@@ -129,12 +129,10 @@
   // height: 100vh;
   @media only screen and (max-width: $bp-992) {
     height: auto;
-    background: #eeedeb;
   }
 
   @media only screen and (max-width: $bp-xsmall) {
     background-position: 0%;
-    background: #eeedeb;
   }
 
   &__text {
