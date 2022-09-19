@@ -443,6 +443,10 @@ main {
     height: 25rem;
     margin-bottom: -7rem;
 
+    @media only screen and (max-width: $bp-xsmall) {
+      height: 35rem;
+    }
+
     .swiper-wrapper {
       padding-left: 5rem;
     }

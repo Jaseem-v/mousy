@@ -1,5 +1,5 @@
 var swiper = new Swiper(".menu-Swiper", {
-    slidesPerView: 1,
+    slidesPerView: 2,
     spaceBetween: 30,
     navigation: {
         nextEl: ".swiper-button-next",
@@ -9,8 +9,8 @@ var swiper = new Swiper(".menu-Swiper", {
     centeredSlides: true,
     breakpoints: {
         400: {
-            slidesPerView: 2,
-            spaceBetween: 30,
+            slidesPerView: 3,
+            spaceBetween: 10,
         },
         540: {
             slidesPerView: 3,
