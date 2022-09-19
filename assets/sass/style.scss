@@ -1,6 +1,6 @@
 // @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import "base";
 @import "navbar";
 @import "typography";
@@ -124,6 +124,11 @@
     background: #eeedeb;
   }
 
+  &__text {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+
 
 
 
@@ -133,20 +138,23 @@
     color: $color-secondary;
     letter-spacing: 0px;
     margin-bottom: 1.5rem;
-    font-size: 8.8rem;
+    font-size: 9rem;
     font-weight: 700;
     line-height: 1.2;
     // max-width: 60rem;
     z-index: 3;
-    grid-column: 1/5;
-    grid-row: 2/3;
+    position: relative;
+
+
+    // text-align: center;
 
     span {
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #0000;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: #fff;
       color: transparent;
       z-index: 5;
       position: relative;
+      font-family: "Poppins", sans-serif;
     }
 
     @media only screen and (max-width: $bp-xsmall) {
@@ -165,16 +173,19 @@
   }
 
   &__sub-title {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     line-height: 1.8;
     letter-spacing: 0px;
     opacity: 1;
     margin-bottom: 2rem;
-    color: #fff;
-    font-weight: 400;
-    z-index: 1;
+    color: #000;
+    font-weight: 700;
+    z-index: 0;
+    position: relative;
 
-    max-width: 55rem;
+    span {
+      color: $color-secondary;
+    }
   }
 
   &__circle {
@@ -195,16 +206,17 @@
       flex-direction: column;
 
       img {
-        width: 20rem;
-        margin-bottom: -25rem;
-        z-index: 1;
+        margin-bottom: -38rem;
         position: relative;
+        width: 35rem;
+        z-index: 1;
       }
     }
   }
-
-
 }
+
+
+
 
 // @media only screen and (max-height: 600px) {
 //   .container {
