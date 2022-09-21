@@ -486,6 +486,11 @@ main {
     @media only screen and (max-width: $bp-992) {
       display: none;
     }
+
+    @media only screen and (min-width: $bp-xlarge) {
+      left: 12rem;
+      width: 30rem;
+    }
   }
 
   &__paragraph {
@@ -737,6 +742,11 @@ main {
         left: -10rem;
         width: 30rem;
       }
+
+      @media only screen and (min-width: $bp-xlarge) {
+        left: -15rem;
+        width: 48rem;
+      }
     }
 
     &-2 {
@@ -797,6 +807,13 @@ main {
         top: -25rem;
         transform: translateX(12%);
         width: 12rem;
+      }
+
+
+      @media only screen and (min-width: $bp-xlarge) {
+        right: 10rem;
+
+
       }
 
     }
@@ -1344,6 +1361,13 @@ main {
         bottom: 10rem;
         left: -7.5rem;
 
+      }
+
+
+      @media only screen and (min-width: $bp-xlarge) {
+        bottom: -14rem;
+        left: 40.5rem;
+        width: 72rem;
       }
 
       &--1 {
