@@ -198,6 +198,14 @@ html {
       margin-left: auto;
     }
   }
+
+
+  &--primary{
+    &:hover{
+      background: $color-primary;
+      color: #000;
+    }
+  }
 }
 
 /*=================================================*/
