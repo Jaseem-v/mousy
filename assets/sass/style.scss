@@ -1351,9 +1351,18 @@ main {
       left: 8.5rem;
       width: 70rem;
 
+
+      @media only screen and (min-width: $bp-xlarge) {
+        bottom: -14rem;
+        left: 40.5rem;
+        width: 72rem;
+      }
+
       @media only screen and (max-width: $bp-largest) {
         bottom: -4rem;
         left: -6.5rem;
+        width: 70rem;
+
       }
 
       @media only screen and (max-width: $bp-992) {
@@ -1364,11 +1373,6 @@ main {
       }
 
 
-      @media only screen and (min-width: $bp-xlarge) {
-        bottom: -14rem;
-        left: 40.5rem;
-        width: 72rem;
-      }
 
       &--1 {
         @media only screen and (max-width: $bp-xsmall) {
