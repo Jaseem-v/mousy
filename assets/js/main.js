@@ -329,7 +329,7 @@ if (contactForm) {
             },
             success: function (response) {
 
-                swal("Form Submitted Successfuly", "", "success");
+                swal("Your data has  submitted successfuly. please contact us  +91 80781 55047", "", "success");
                 $("#contact-form")[0].reset()
 
                 //window.location.href="https://google.com"
